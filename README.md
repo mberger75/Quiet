@@ -21,7 +21,7 @@ Then, the landscape appears and the music starts playing. You can watch the vide
 
 <br>
 
-<a href="https://quiet.qweit.com/"><img src="preview.min.gif"></a>
+<a href="https://quiet.qweit.com/"><img src="previews/preview.min.gif"></a>
 
 <br>
 
@@ -37,7 +37,7 @@ Then, the landscape appears and the music starts playing. You can watch the vide
 
 <br>
 
-<a href="https://quiet.qweit.com/"><img src="preview-menu.jpg"></a>
+<a href="https://quiet.qweit.com/"><img src="previews/preview-menu.jpg"></a>
 
 <br>
 
