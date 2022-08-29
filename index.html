@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.png" type="image/png">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+    <title>Quiet • Clear your mind</title>
+</head>
+<body>
+    <h1 class="hero-title">💙 Start your Quiet journey 💙</h1>
+    <div class="mobile">
+        <p>Your screen size is too small to enjoy Quiet.</p>
+        <p>Make sure your screen is larger than 900px.</p>
+    </div>
+    <div class="desktop">
+        <div class="start">
+            <p class="choose-music">⬆️<br>Choose a music</p>
+            <p class="adjust-settings">⬅️ Adjust settings</p>
+            <p class="choose-theme">Choose a theme<br>⬇️</p>
+        </div>
+        <div class="toolbar">
+            <div class="label-input">
+                <label for="brightness">Brightness</label>
+                <input id="brightness" type="range" min="0" max="1" step="0.1" value="1" onchange="handleBrightness(event)">
+            </div>
+            <div class="label-input">
+                <label for="soundVolume">Sound volume</label>
+                <input id="soundVolume" type="range" min="0" max="1" step="0.1" value="1" onchange="handleSoundVolume(event)">
+            </div>
+            <div class="label-input">
+                <label for="musicVolume">Music volume</label>
+                <input id="musicVolume" type="range" min="0" max="1" step="0.1" value="1" onchange="handleMusicVolume(event)">
+            </div>
+        </div>
+        <div class="options themes"></div>
+        <div class="options musics"></div>
+        <div class="wrapper"></div>
+    </div>
+</body>
+</html>
